@@ -1,4 +1,9 @@
-/* #E95420 */
+/*
+
+#E95420 - orange
+#17a2b8 - aqua
+
+*/
 
 * {
   margin: 0;
@@ -21,7 +26,7 @@ body {
 /* ---- COMMON ----  */
 
 h1 {
-  margin: 2rem;
+  margin: 50px auto;
   text-align: center;
   font-size: 160%;
   text-transform: uppercase;
@@ -43,7 +48,7 @@ h1:after {
   height: 2px;
   background-color: #e95420;
   content: "";
-  width: 150px;
+  width: 200px;
   margin: 0 auto;
   margin-top: 20px;
 }
@@ -84,7 +89,6 @@ header {
 .service-tile i {
   display: block;
   font-size: 300%;
-  /* color: #e95420; */
   margin: 30px 0;
   text-align: center;
 }
