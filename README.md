@@ -39,21 +39,21 @@ add link here...
 
 # List of technologies used
 
-    1. IDE: [Visual Studio Code](https://code.visualstudio.com/)
-    2. Web technologies:
-       1. [HTML5](https://en.wikipedia.org/wiki/HTML5)
-       2. [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets#CSS_3)
-    3. Styling libraries:
-       1. [Bootstrap](https://getbootstrap.com)
-       2. [Bootswatch](https://bootswatch.com)
-       3. [Google fonts](https://fonts.google.com)
-       4. [Fontawesome](https://fontawesome.com)
-    4. Source code versioning:
-       1. [Git](https://en.wikipedia.org/wiki/Git)
-       2. [GitHub](https://github.com)
-    5. Validators:
-       1. [HTML validator](https://validator.w3.org/)
-       2. [CSS validator](http://jigsaw.w3.org/css-validator/)
-    6. Testing tools:
-       1. [Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools)
-       2. [aXe accessibility scanner](https://www.deque.com/axe/)
+ 1. IDE: [Visual Studio Code](https://code.visualstudio.com/)
+ 2. Web technologies:
+    - [HTML5](https://en.wikipedia.org/wiki/HTML5)
+    - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets#CSS_3)
+ 3. Styling libraries:
+    - [Bootstrap](https://getbootstrap.com)
+    - [Bootswatch](https://bootswatch.com)
+    - [Google fonts](https://fonts.google.com)
+    - [Fontawesome](https://fontawesome.com)
+ 4. Source code versioning:
+    - [Git](https://en.wikipedia.org/wiki/Git)
+    - [GitHub](https://github.com)
+ 5. Validators:
+    - [HTML validator](https://validator.w3.org/)
+    - [CSS validator](http://jigsaw.w3.org/css-validator/)
+ 6. Testing tools:
+    - [Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools)
+    - [aXe accessibility scanner](https://www.deque.com/axe)
