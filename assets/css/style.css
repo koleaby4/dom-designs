@@ -1,3 +1,5 @@
+/* #E95420 */
+
 * {
   margin: 0;
   padding: 0;
@@ -16,13 +18,43 @@ body {
   position: relative;
 }
 
-/* landing */
+/* ---- COMMON ----  */
 
-.section-landing {
+h1 {
+  margin: 2rem;
+  text-align: center;
+  font-size: 160%;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 120%;
+}
+
+/* buttons */
+
+.btn {
+  border-radius: 200px;
+}
+
+/* horisontal line below H1 */
+h1:after {
+  display: block;
+  height: 2px;
+  background-color: #e95420;
+  content: "";
+  width: 150px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+/* ---- HEADER ----  */
+
+header {
   background-image: linear-gradient(
       to right,
       rgba(0, 0, 0, 0.7),
-      rgba(0, 0, 0, 0.1)
+      rgba(0, 0, 0, 0.4)
     ),
     url("../images/landing-background.jpg");
   background-size: cover;
@@ -33,12 +65,29 @@ body {
 
 .btn-holder {
   position: absolute;
-  top: 60%;
+  top: 40%;
   left: 7%;
 }
 
-/* buttons */
+/* ---- SERVICES ----  */
 
-.btn {
-  border-radius: 200px;
+.service-tile {
+}
+
+.service-header {
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.service-tile i {
+  display: block;
+  font-size: 300%;
+  /* color: #e95420; */
+  margin: 20px 0;
+  text-align: center;
+}
+
+.service-description {
+  text-align: justify;
 }
