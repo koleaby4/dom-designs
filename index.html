@@ -24,6 +24,10 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dom Designs</title>
     <link rel="stylesheet" href="assets/css/style.css" />
@@ -110,13 +114,16 @@
       <h1>Our projects</h1>
       <div class="container">
         <div class="row">
-          <div class="project-tile col-md-4">
+          <div class="project-tile col-md-4 hvr-sweep-to-bottom">
             <a
               href="assets/images/project1/living-room2.jpg"
               data-fancybox="project1"
               data-thumbs='{"autoStart":true}'
             >
-              <img src="assets/images/project1/living-room2.jpg" />
+              <img
+                src="assets/images/project1/living-room2.jpg"
+                alt="project one image gallery"
+              />
             </a>
 
             <div style="display: none;">
@@ -157,7 +164,10 @@
               data-fancybox="project3"
               data-thumbs='{"autoStart":true}'
             >
-              <img src="assets/images/project3/living-room.jpg" />
+              <img
+                src="assets/images/project3/living-room.jpg"
+                alt="project three image gallery"
+              />
             </a>
             <div style="display: none;">
               <a
@@ -197,7 +207,10 @@
               data-fancybox="project2"
               data-thumbs='{"autoStart":true}'
             >
-              <img src="assets/images/project2/living-room.jpg" />
+              <img
+                src="assets/images/project2/living-room.jpg"
+                alt="project two image gallery"
+              />
             </a>
             <div style="display: none;">
               <a
@@ -234,7 +247,88 @@
         </div>
       </div>
     </section>
-    <section class="section-contacts">contacts</section>
+
+    <section class="section-contacts">
+      <h1>Contact us in one of these locations</h1>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 contact-tile">
+            <img src="assets/images/london-hr.jpg" alt="london" />
+            <h2>London</h2>
+            <div class="contact-details">
+              <div class="email">
+                <i class="far fa-envelope"></i>
+                <a href="mailto:london@dom-designs.com"
+                  >london@dom-designs.com</a
+                >
+              </div>
+              <div class="phone">
+                <i class="fas fa-phone"></i>
+                +445555-481-674
+              </div>
+              <div class="address">
+                <i class="fas fa-map-marked-alt"></i>
+                <a href="https://goo.gl/maps/k2YNZsXXyzHegAEJ7" target="_blank"
+                  >224 Kensington St, W8 6AG</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 contact-tile">
+            <img src="assets/images/new-york-hr.jpg" alt="new york" />
+            <h2>New York</h2>
+
+            <div class="contact-details">
+              <div class="email">
+                <i class="far fa-envelope"></i>
+                <a
+                  href="mailto:new-york@dom-designs.com?Subject=Regarding%20design%20project"
+                  >new-york@dom-designs.com</a
+                >
+              </div>
+              <div class="phone">
+                <i class="fas fa-phone"></i>
+                +15555-184-581
+              </div>
+              <div class="address">
+                <i class="fas fa-map-marked-alt"></i>
+                <a href="https://goo.gl/maps/Z1VfenDQipTrPamp8" target="_blank"
+                  >200 Lexington Ave, NY 10016</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 contact-tile">
+            <img src="assets/images/moscow-hr.jpg" alt="moscow" />
+            <h2>Moscow</h2>
+
+            <div class="contact-details">
+              <div class="email">
+                <i class="far fa-envelope"></i>
+                <a
+                  href="mailto:moscow@dom-designs.com?Subject=значит%20делаем%20так..."
+                  >moscow@dom-designs.com</a
+                >
+              </div>
+              <div class="phone">
+                <i class="fas fa-phone"></i>
+                +75555-657-852
+              </div>
+              <div class="address">
+                <i class="fas fa-map-marked-alt"></i>
+                <a href="https://goo.gl/maps/wbdBPeUh5b6ud86S9" target="_blank"
+                  >New Arbat Ave, 21, 119019</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section class="section-testimonials">testimonials</section>
     <footer>footer</footer>
     <script

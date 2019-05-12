@@ -101,7 +101,7 @@ header {
 /* ---- PROJECTS ----  */
 
 .section-projects {
-    padding-top: 10px;
+  padding-top: 10px;
   background-color: #e9ecef;
 }
 
@@ -114,4 +114,25 @@ header {
   margin-top: 2%;
   margin-bottom: 2%;
   /* margin: 2%; */
+}
+
+/* ---- CONTACTS ----  */
+
+.contact-tile img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.contact-tile h2 {
+  text-align: center;
+}
+
+.contact-tile a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: #E95420;
+  border-bottom: 1px solid #e67e22;
+  transition: all 0.2s;
 }

@@ -43,11 +43,12 @@ add link here...
  2. Web technologies:
     - [HTML5](https://en.wikipedia.org/wiki/HTML5)
     - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets#CSS_3)
- 3. Styling libraries:
+ 3. Styling libraries and components:
     - [Bootstrap](https://getbootstrap.com)
     - [Bootswatch](https://bootswatch.com)
     - [Google fonts](https://fonts.google.com)
     - [Fontawesome](https://fontawesome.com)
+    - [Fancybox](https://fancyapps.com)
  4. Source code versioning:
     - [Git](https://en.wikipedia.org/wiki/Git)
     - [GitHub](https://github.com)
