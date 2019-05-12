@@ -57,3 +57,8 @@ add link here...
  6. Testing tools:
     - [Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools)
     - [aXe accessibility scanner](https://www.deque.com/axe)
+
+
+# External resources
+
+1. Images: https://unsplash.com

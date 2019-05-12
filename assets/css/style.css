@@ -2,6 +2,7 @@
 
 #E95420 - orange
 #17a2b8 - aqua
+868e96 - grey
 
 */
 
@@ -26,7 +27,7 @@ body {
 /* ---- COMMON ----  */
 
 h1 {
-  margin: 50px auto;
+  margin: 60px auto;
   text-align: center;
   font-size: 160%;
   text-transform: uppercase;
@@ -48,7 +49,7 @@ h1:after {
   height: 2px;
   background-color: #e95420;
   content: "";
-  width: 200px;
+  width: 100px;
   margin: 0 auto;
   margin-top: 20px;
 }
@@ -95,4 +96,22 @@ header {
 
 .service-description {
   text-align: justify;
+}
+
+/* ---- PROJECTS ----  */
+
+.section-projects {
+    padding-top: 10px;
+  background-color: #e9ecef;
+}
+
+.project-tile {
+  width: 100%;
+}
+
+.project-tile img {
+  width: 100%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  /* margin: 2%; */
 }
