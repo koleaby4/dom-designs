@@ -107,6 +107,7 @@ header {
 
 .project-tile {
   width: 100%;
+  padding: 3px;
 }
 
 .project-tile img {
@@ -117,6 +118,17 @@ header {
 }
 
 /* ---- CONTACTS ----  */
+
+.contact-tile {
+  text-align: center;
+}
+
+.contact-details {
+  /* padding-left: 20%; */
+  margin-bottom: 50px;
+  line-height: 1.7rem;
+  text-align: left;
+}
 
 .contact-tile img {
   width: 100%;
