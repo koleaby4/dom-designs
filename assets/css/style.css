@@ -117,7 +117,22 @@ header {
   /* margin: 2%; */
 }
 
+/* TESTIMONIALS */
+
+.section-testimonials {
+  padding-top: 10px;
+  background-image: url("../images/testimoials-background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
 /* ---- CONTACTS ----  */
+
+.section-contacts {
+  background-color: #e9ecef;
+}
 
 .contact-tile {
   text-align: center;
@@ -144,7 +159,7 @@ header {
 a:visited,
 a:active {
   text-decoration: none;
-  color: #E95420;
+  color: #e95420;
   border-bottom: 1px solid #e67e22;
   transition: all 0.2s;
 }
