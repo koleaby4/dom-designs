@@ -102,7 +102,7 @@ header {
 
 .section-projects {
   padding-top: 10px;
-  background-color: #e9ecef;
+  background-color: #f7f7f7;
 }
 
 .project-tile {
@@ -131,7 +131,12 @@ header {
 /* ---- CONTACTS ----  */
 
 .section-contacts {
-  background-color: #e9ecef;
+  padding-top: 60px;
+  background-color: #f7f7f7;
+}
+
+.section-contacts h1 {
+  margin-top: 0
 }
 
 .contact-tile {
