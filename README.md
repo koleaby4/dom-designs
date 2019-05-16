@@ -57,7 +57,7 @@ add link here...
     - [Bootstrap](https://getbootstrap.com)
     - [Bootswatch](https://bootswatch.com)
     - [Google fonts](https://fonts.google.com)
-    - [Fontawesome](https://fontawesome.com)
+    - [Fontawesome](https://fontawesome.com) || [flaticon](https://www.flaticon.com) || [ionicons](https://ionicons.com/)
     - [Fancybox](https://fancyapps.com)
  4. Source code versioning:
     - [Git](https://en.wikipedia.org/wiki/Git)
