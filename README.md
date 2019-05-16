@@ -53,6 +53,7 @@ add link here...
     - [HTML5](https://en.wikipedia.org/wiki/HTML5)
     - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets#CSS_3)
  3. Styling libraries and components:
+    - [normalize.css](https://necolas.github.io/normalize.css)
     - [Bootstrap](https://getbootstrap.com)
     - [Bootswatch](https://bootswatch.com)
     - [Google fonts](https://fonts.google.com)
