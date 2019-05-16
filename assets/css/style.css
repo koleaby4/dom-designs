@@ -1,10 +1,9 @@
-/*
+/* ---- GLOBAL VARIABLES ----  */
 
-#E95420 - orange
-#17a2b8 - aqua
-868e96 - grey
-
-*/
+:root {
+  --primary-orange: #e95420;
+  --secondary-bg-colour: #f7f7f7;
+}
 
 * {
   margin: 0;
@@ -49,7 +48,7 @@ h2 {
 h1:after {
   display: block;
   height: 2px;
-  background-color: #e95420;
+  background-color: var(--primary-orange);
   content: "";
   width: 100px;
   margin: 0 auto;
@@ -79,9 +78,6 @@ header {
 
 /* ---- SERVICES ----  */
 
-.service-tile {
-}
-
 .service-header {
   display: block;
   text-align: center;
@@ -104,7 +100,7 @@ header {
 
 .section-projects {
   padding-top: 10px;
-  background-color: #f7f7f7;
+  background-color: var(--secondary-bg-colour);
 }
 
 .project-tile {
@@ -118,7 +114,7 @@ header {
   margin-bottom: 2%;
 }
 
-/* TESTIMONIALS */
+/* ---- TESTIMONIALS ----  */
 
 .section-testimonials {
   padding-top: 10px;
@@ -169,7 +165,7 @@ blockquote:before {
 
 .section-contacts {
   padding-top: 60px;
-  background-color: #f7f7f7;
+  background-color: var(--secondary-bg-colour);
 }
 
 .section-contacts h1 {
@@ -198,7 +194,7 @@ blockquote:before {
 a:visited,
 a:active {
   text-decoration: none;
-  color: #e95420;
+  color: var(--primary-orange);
   border-bottom: 1px solid #e67e22;
   transition: all 0.2s;
 }
