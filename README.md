@@ -12,6 +12,15 @@ Which needs customers have and how this site helps addressing these needs.
 
 breakdown between implemented and future ones
 
+# Non-functional reqirements
+
+1. works on mobile screen sizes
+2. works on desktop browsers
+3. loads images based on screen size
+4. uses svg icons
+5. uses css variables to improve readability and reduce code duplication
+6. non-critical java script libraries should load after main content
+
 # Wireframes
 
 add link here...
