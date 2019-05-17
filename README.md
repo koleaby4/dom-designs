@@ -34,12 +34,7 @@ ToDo: add link to issues
 
 ## Non-functional reqirements
 
-**Given** I am using mobile phone for browsing,
-**When** I navigate to company's website
-**Then** I expect all content to be rendered in mobile-friendly way
-
-4. uses svg icons
-6. non-critical java script libraries should load after main content
+For non-functional requirements, see [issues with `NFR` label](https://github.com/koleaby4/dom-designs/issues?utf8=%E2%9C%93&q=label%3ANFR)
 
 ---
 
