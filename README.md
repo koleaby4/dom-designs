@@ -28,17 +28,17 @@ Company's website should allow potential customers, who are considering to invol
 
 ## User stories
 
-breakdown between implemented and future ones
+ToDo: add link to issues
 
 ---
 
 ## Non-functional reqirements
 
-1. works on mobile screen sizes
-2. works on desktop browsers
-3. loads images based on screen size
+**Given** I am using mobile phone for browsing,
+**When** I navigate to company's website
+**Then** I expect all content to be rendered in mobile-friendly way
+
 4. uses svg icons
-5. uses css variables to improve readability and reduce code duplication
 6. non-critical java script libraries should load after main content
 
 ---
