@@ -1,18 +1,38 @@
-# Dom Design - interior design company
+# Website for 'Dom Designs'
 
-// link to github pages
+This project builds website for 'Dom Designs' - an interior design company with main office based in London UK and projects in Europe, US and Russia.
 
-Add site overview - what it contains.
+## Website URL
 
-Business rationale / goals - online presence, strengthen brand, access to new client base.
+https://koleaby4.github.io/dom-designs
 
-Which needs customers have and how this site helps addressing these needs.
+---
 
-# User stories
+## Goals
+
+### Dom Designs' business goal
+
+The main target we are trying to achieve by developing website for Dom Designs 
+is to increasing online presence in order to increase customer base and provide information about their business to potential customers.
+
+### Customers' needs
+
+Company's website should allow potential customers, who are considering to involve interior designers into their projects, to:
+   1. find the company's website online
+   2. find out about range of services offered by Dom Designs and compare them with competitors
+   3. see photos of completed projects
+   4. read feedback from existing customers
+   5. find contact details and get in enquire about involving Dom Designs into new projects
+
+---
+
+## User stories
 
 breakdown between implemented and future ones
 
-# Non-functional reqirements
+---
+
+## Non-functional reqirements
 
 1. works on mobile screen sizes
 2. works on desktop browsers
@@ -21,32 +41,47 @@ breakdown between implemented and future ones
 5. uses css variables to improve readability and reduce code duplication
 6. non-critical java script libraries should load after main content
 
-# Wireframes
+---
+
+## Wireframes
 
 add link here...
 
+---
 
-
-# How we tested it
+## How we tested it
 
     * functional: add cypress tests?
     * non-functional:
         - cross-browser (cause labs / physical devices)
         - accessibility: (aXe and dev tools)
 
+---
 
-# How we deployed it to github
+## Deployment
 
-# How to clone and run locally
+steps to deploy to github pages
 
-# Validations
+---
+
+
+## Clone and run locally
+
+ToDo: add steps
+
+---
+
+
+## Validations
 
 1. HTML validations should pass
 2. CSS validations should pass
 3. Accessibility tests should pass
 4. Should work on iPhone and Chrome
 
-# List of technologies used
+---
+
+## List of technologies used
 
  1. IDE: [Visual Studio Code](https://code.visualstudio.com/)
  2. Web technologies:
@@ -69,7 +104,8 @@ add link here...
     - [Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools)
     - [aXe accessibility scanner](https://www.deque.com/axe)
 
+---
 
-# External resources
+## External resources
 
 1. Images: https://unsplash.com
