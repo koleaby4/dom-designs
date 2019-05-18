@@ -190,6 +190,10 @@ blockquote p {
   margin-top: 0;
 }
 
+.contact-tile h2 {
+  text-transform: uppercase;
+}
+
 .contact-tile {
   text-align: center;
   display: flex;
