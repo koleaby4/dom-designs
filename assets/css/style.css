@@ -139,7 +139,6 @@ header {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  height: 100vh;
 }
 
 .section-testimonials h1 {
@@ -232,4 +231,11 @@ a:active {
   color: var(--primary-orange);
   border-bottom: 1px solid var(--primary-orange);
   transition: all var(--transition-duration);
+}
+
+/* FOOTER */
+
+footer {
+  background: white;
+  font-size: .7rem;
 }
