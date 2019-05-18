@@ -1,6 +1,7 @@
 # Website for 'Dom Designs'
 
-This project builds website for 'Dom Designs' - an interior design company with main office based in London UK and projects in Europe, US and Russia.
+This project builds website for 'Dom Designs' - an interior design company <br>
+with main office based in London UK and projects in Europe, US and Russia.
 
 ## Website URL
 
@@ -23,7 +24,7 @@ Company's website should allow potential customers, who are considering to invol
    2. find out about range of services offered by Dom Designs and compare them with competitors
    3. see photos of completed projects
    4. read feedback from existing customers
-   5. find contact details and get in enquire about involving Dom Designs into new projects
+   5. find contact details and enquire about engaging Dom Designs into project work
 
 ---
 
