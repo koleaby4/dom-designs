@@ -120,9 +120,8 @@ header {
   padding-top: 10px;
   padding-left: 2%;
   background-image: linear-gradient(
-      /* reduce contrast of the background */ to right,
-      rgba(225, 225, 225, 0.3),
-      rgba(225, 225, 225, 0.3)
+      rgba(225, 225, 225, 0.4),
+      rgba(225, 225, 225, 0.4)
     ),
     url("../images/testimoials-background.jpg");
   background-size: cover;
@@ -142,10 +141,10 @@ header {
 
 blockquote {
   border-left: 10px solid #ccc;
-  /* margin: 1.5em 10px; */
   padding: 0.5em 10px;
   quotes: "\201C""\201D";
 }
+
 blockquote:before {
   color: #ccc;
   content: open-quote;
@@ -154,8 +153,16 @@ blockquote:before {
   margin-right: 0.25em;
   vertical-align: -0.4em;
 }
+
 blockquote p {
   display: inline;
+}
+
+/* increase contrast with background behind quote text on mobile */
+@media (max-width: 799px) {
+  blockquote {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
 }
 
 .customer {
