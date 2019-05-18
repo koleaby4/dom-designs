@@ -13,7 +13,7 @@
 }
 
 html {
-  background-color: #fff;
+  background-color: white;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-size: 20px;
@@ -21,6 +21,7 @@ html {
 }
 
 body {
+  /*needed for positioning a relative CTA*/
   position: relative;
 }
 
@@ -42,7 +43,8 @@ h2 {
 /* buttons */
 
 .btn {
-  border-radius: 200px;
+  /*rounded button corners*/
+  border-radius: 30px;
 }
 
 /* horisontal line below H1 */
@@ -61,12 +63,13 @@ h1:after {
 .nav a:link,
 .nav a:visited {
   border-bottom: 2px solid transparent;
-  transition: border-bottom var(--transition-duration) ease-in-out;
+  transition: all var(--transition-duration) ease-in-out;
   text-transform: uppercase;
 }
 
 .nav a:hover,
 .nav a:active {
+  /* coloured underligning navbar item on hover */
   border-bottom: 2px solid var(--primary-orange);
 }
 
@@ -127,7 +130,8 @@ header {
 .section-testimonials {
   padding-top: 10px;
   padding-left: 2%;
-  background-image: linear-gradient(
+  background-image:
+      /* redeuce contrast of background */ linear-gradient(
       rgba(225, 225, 225, 0.4),
       rgba(225, 225, 225, 0.4)
     ),
@@ -135,7 +139,7 @@ header {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  /* height: 100vh; */
+  height: 100vh;
 }
 
 .section-testimonials h1 {
@@ -147,12 +151,14 @@ header {
   margin-bottom: 2rem;
 }
 
+/* vertical bar on the left of testimonial */
 blockquote {
   border-left: 10px solid #ccc;
   padding: 0.5em 10px;
   quotes: "\201C""\201D";
 }
 
+/* quote mark before testimonial text*/
 blockquote:before {
   color: #ccc;
   content: open-quote;
@@ -181,7 +187,7 @@ blockquote p {
 }
 
 .testimonial-plate img {
-  border-radius: 50%;
+  border-radius: 50%; /* rounded photo */
   height: 3rem;
   margin-right: 0.5rem;
 }
