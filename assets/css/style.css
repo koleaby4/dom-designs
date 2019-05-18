@@ -3,6 +3,7 @@
 :root {
   --primary-orange: #e95420;
   --secondary-bg-colour: #f7f7f7;
+  --transition-duration: 0.3s;
 }
 
 * {
@@ -57,13 +58,19 @@ h1:after {
 
 /* ---- HEADER ----  */
 
+.nav a:link,
+.nav a:visited {
+  border-bottom: 2px solid transparent;
+  transition: border-bottom var(--transition-duration) ease-in-out;
+  text-transform: uppercase;
+}
+
+.nav a:hover,
+.nav a:active {
+  border-bottom: 2px solid var(--primary-orange);
+}
+
 header {
-  /* background-image: linear-gradient(
-      to right,
-      rgba(0, 0, 0, 0.7),
-      rgba(0, 0, 0, 0.4)
-    ),
-    url("../images/landing-background.jpg"); */
   background-image: url("../images/landing-background-2.jpg");
   background-size: cover;
   background-position: bottom;
@@ -217,6 +224,6 @@ a:visited,
 a:active {
   text-decoration: none;
   color: var(--primary-orange);
-  border-bottom: 1px solid #e67e22;
-  transition: all 0.2s;
+  border-bottom: 1px solid var(--primary-orange);
+  transition: all var(--transition-duration);
 }
