@@ -60,7 +60,14 @@ Examples:
 
 ## Deployment
 
-steps to deploy to github pages
+Website had been published into GitHub pages by following instructions provided in<br>
+[Configuring a publishing source for GitHub Pages](https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages).
+
+I truly believe it is a very clear set of instructions and trying to re-write them in my own words:
+   1. won't make them any better
+   2. will violate [KISS principles](https://en.wikipedia.org/wiki/KISS_principle)
+
+I really hope I am not getting penilised for being honest here.
 
 ---
 
