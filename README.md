@@ -8,14 +8,15 @@ https://koleaby4.github.io/dom-designs
 
 ---
 
-## Goals
+## Dom Designs' business goal
 
-### Dom Designs' business goal
+The main target we are trying to achieve by developing website for Dom Designs<br>
+is to increasing online presence in order to increase customer base<br>
+and provide information about their business to potential customers.
 
-The main target we are trying to achieve by developing website for Dom Designs
-is to increasing online presence in order to increase customer base and provide information about their business to potential customers.
+---
 
-### Customers' needs
+## Customers' needs
 
 Company's website should allow potential customers, who are considering to involve interior designers into their projects, to:
    1. find the company's website online
@@ -26,15 +27,14 @@ Company's website should allow potential customers, who are considering to invol
 
 ---
 
-## User stories
+## Requirements
 
-ToDo: add link to issues
-
----
-
-## Non-functional reqirements
-
-For non-functional requirements, see [issues with `NFR` label](https://github.com/koleaby4/dom-designs/issues?utf8=%E2%9C%93&q=label%3ANFR)
+   1. Requirements have beed tracked [in issues part](https://github.com/koleaby4/dom-designs/issues) of GitHub project page
+   2. Non-functional requirements are marked [by NFR label](https://github.com/koleaby4/dom-designs/issues?utf8=%E2%9C%93&q=label%3ANFR)
+   3. Accessibility stories are marled [by a11y label](https://github.com/koleaby4/dom-designs/issues?q=is%3Aissue+label%3Aa11y)
+   4. Performance considerations
+      1. Different resolution images used for mobile and desktops
+      2. Loading of javascript libraries is [deferred](https://www.growingwiththeweb.com/2014/02/async-vs-defer-attributes.html)
 
 ---
 
