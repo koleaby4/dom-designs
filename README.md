@@ -12,7 +12,7 @@ https://koleaby4.github.io/dom-designs
 
 ### Dom Designs' business goal
 
-The main target we are trying to achieve by developing website for Dom Designs 
+The main target we are trying to achieve by developing website for Dom Designs
 is to increasing online presence in order to increase customer base and provide information about their business to potential customers.
 
 ### Customers' needs
@@ -104,3 +104,6 @@ ToDo: add steps
 ## External resources
 
 1. Images: https://unsplash.com
+2. Testimonials: https://camelliainteriors.co.uk/design-testimonials
+3. Code snippets:
+   - blockquote formatting: https://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/

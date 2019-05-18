@@ -118,6 +118,7 @@ header {
 
 .section-testimonials {
   padding-top: 10px;
+  padding-left: 2%;
   background-image: linear-gradient(
       /* reduce contrast of the background */ to right,
       rgba(225, 225, 225, 0.3),
@@ -127,20 +128,24 @@ header {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .section-testimonials h1 {
-  margin-bottom: 0;
+  margin-bottom: 1rem;
+}
+
+.testimonial-plate {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 blockquote {
   border-left: 10px solid #ccc;
-  margin: 1.5em 10px;
+  /* margin: 1.5em 10px; */
   padding: 0.5em 10px;
-  quotes: "“" "”";
+  quotes: "\201C""\201D";
 }
-
 blockquote:before {
   color: #ccc;
   content: open-quote;
@@ -148,6 +153,9 @@ blockquote:before {
   line-height: 0.1em;
   margin-right: 0.25em;
   vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
 }
 
 .customer {
@@ -157,7 +165,7 @@ blockquote:before {
 
 .testimonial-plate img {
   border-radius: 50%;
-  height: 5rem;
+  height: 3rem;
   margin-right: 2rem;
 }
 
