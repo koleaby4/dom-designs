@@ -58,14 +58,15 @@ h1:after {
 /* ---- HEADER ----  */
 
 header {
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
       to right,
       rgba(0, 0, 0, 0.7),
       rgba(0, 0, 0, 0.4)
     ),
-    url("../images/landing-background.jpg");
+    url("../images/landing-background.jpg"); */
+  background-image: url("../images/landing-background-2.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
   background-attachment: fixed;
   height: 100vh;
 }
