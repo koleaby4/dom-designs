@@ -29,7 +29,7 @@ Company's website should allow potential customers, who are considering to invol
 
 ## Requirements
 
-   1. Requirements have beed tracked [in issues part](https://github.com/koleaby4/dom-designs/issues) of GitHub project page
+   1. Requirements have beed tracked [in issues part](https://github.com/koleaby4/dom-designs/issues?utf8=%E2%9C%93&q=is%3Aissue) of GitHub project page
    2. Non-functional requirements are marked [by NFR label](https://github.com/koleaby4/dom-designs/issues?utf8=%E2%9C%93&q=label%3ANFR)
    3. Accessibility stories are marled [by a11y label](https://github.com/koleaby4/dom-designs/issues?q=is%3Aissue+label%3Aa11y)
    4. Performance considerations
@@ -40,7 +40,11 @@ Company's website should allow potential customers, who are considering to invol
 
 ## Wireframes
 
-add link here...
+Wireframes have been implemented using [balsamiq](https://balsamiq.com) <br>and attached to respective user stories.
+
+Examples:
+   - [Desktop Contacts Section](https://github.com/koleaby4/dom-designs/issues/19)
+   - [Mobile Projects Section](https://github.com/koleaby4/dom-designs/issues/14)
 
 ---
 
@@ -98,6 +102,7 @@ ToDo: add steps
  6. Testing tools:
     - [Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools)
     - [aXe accessibility scanner](https://www.deque.com/axe)
+ 7. Wireframes: [balsamiq](https://balsamiq.com)
 
 ---
 
