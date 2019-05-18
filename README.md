@@ -3,11 +3,13 @@
 This project builds website for 'Dom Designs' - an interior design company <br>
 with main office based in London UK and projects in Europe, US and Russia.
 
+
+
 ## Website URL
 
 https://koleaby4.github.io/dom-designs
 
----
+
 
 ## Dom Designs' business goal
 
@@ -15,7 +17,7 @@ The main target we are trying to achieve by developing website for Dom Designs<b
 is to increasing online presence in order to increase customer base<br>
 and provide information about their business to potential customers.
 
----
+
 
 ## Customers' needs
 
@@ -26,7 +28,7 @@ Company's website should allow potential customers, who are considering to invol
    4. read feedback from existing customers
    5. find contact details and enquire about engaging Dom Designs into project work
 
----
+
 
 ## Requirements
 
@@ -37,7 +39,7 @@ Company's website should allow potential customers, who are considering to invol
       1. Different resolution images used for mobile and desktops
       2. Loading of javascript libraries is [deferred](https://www.growingwiththeweb.com/2014/02/async-vs-defer-attributes.html)
 
----
+
 
 ## Wireframes
 
@@ -47,18 +49,24 @@ Examples:
    - [Desktop Contacts Section](https://github.com/koleaby4/dom-designs/issues/19)
    - [Mobile Projects Section](https://github.com/koleaby4/dom-designs/issues/14)
 
----
+
 
 ## How we tested it
 
-    * functional: add cypress tests?
-    * non-functional:
-        - cross-browser (cause labs / physical devices)
-        - accessibility: (aXe and dev tools)
+Functional tests have been carried out manually on regular basis using:
+   - physicsl devices
+      * Windows10 & Chrome desktop
+      * Windows10 & IE11 desktop
+      * Google Pixel 2 & Chrome mobile
+   - virtual devices: Apple iPhone X via [SauceLabs](https://saucelabs.com)
 
----
+Two accessibility acanners were used to validate website:
+   * [aXe](https://www.deque.com/axe)
+   * [Lighthouse](https://developers.google.com/web/tools/lighthouse/)
 
-## Deployment
+
+
+## How website was published
 
 Website had been published into GitHub pages by following instructions provided in<br>
 [Configuring a publishing source for GitHub Pages](https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages).
@@ -69,14 +77,6 @@ I truly believe it is a very clear set of instructions and trying to re-write th
 
 I really hope I am not getting penilised for being honest here.
 
----
-
-
-## Clone and run locally
-
-ToDo: add steps
-
----
 
 
 ## Validations
@@ -86,7 +86,7 @@ ToDo: add steps
 3. Accessibility tests should pass
 4. Should work on iPhone and Chrome
 
----
+
 
 ## List of technologies used
 
@@ -110,11 +110,12 @@ ToDo: add steps
  6. Testing tools:
     - [Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools)
     - [aXe accessibility scanner](https://www.deque.com/axe)
+    - [SauceLabs](https://saucelabs.com) for cross-platform & cross-browser compatibility
  7. Wireframes: [balsamiq](https://balsamiq.com)
 
----
 
-## External resources
+
+## External resources / credits
 
 1. Images: https://unsplash.com
 2. Testimonials: https://camelliainteriors.co.uk/design-testimonials
