@@ -1,0 +1,24 @@
+{
+  "name": "dom-designs",
+  "version": "1.0.0",
+  "description": "This project builds website for 'Dom Designs' - an interior design company <br>\r with main office based in London UK and projects in Europe, US and Russia.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koleaby4/dom-designs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/koleaby4/dom-designs/issues"
+  },
+  "homepage": "https://github.com/koleaby4/dom-designs#readme",
+  "devDependencies": {
+    "cypress": "^3.3.0"
+  }
+}
