@@ -1,4 +1,4 @@
-import { selectors } from "./selectors";
+import { selectors } from "../pageObjectModel/selectors";
 
 const assertElementContans = (selector, index, expectedText) =>
   cy

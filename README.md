@@ -60,10 +60,26 @@ Functional tests have been carried out manually on regular basis using:
       * Google Pixel 2 & Chrome mobile
    - virtual devices: Apple iPhone X via [SauceLabs](https://saucelabs.com)
 
+Automated tests using [cypress](https://www.cypress.io) have been added to landing and services sections.
+Further tests to be added in the future.
+
 Two accessibility acanners were used to validate website:
    * [aXe](https://www.deque.com/axe)
    * [Lighthouse](https://developers.google.com/web/tools/lighthouse/)
 
+
+## How to run cypress tests
+
+   Prerequisites:
+   1. clone project's source codes
+   2. make sure you have [npm installed](https://www.npmjs.com/get-npm)
+
+   To execute tests:
+   1. in terminal navigate to project folder
+   2. run `npm install`
+   3. run
+      1. `npm run cypress:run` to execute all tests in headless mode
+      2. or `npm run cypress:open` to open cypress UI and cherry-pick which tests to run
 
 
 ## How website was published
