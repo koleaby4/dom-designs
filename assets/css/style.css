@@ -69,8 +69,16 @@ h1:after {
 
 .nav a:hover,
 .nav a:active {
-  /* coloured underligning navbar item on hover */
+  /* coloured underlining navbar item on hover */
   border-bottom: 2px solid var(--primary-orange);
+}
+
+/* when hover over nav items on narrow screen,
+keep coloured underlining limited to width of the text */
+@media (max-width: 768px) {
+  .navbar-nav {
+    align-items: flex-start;
+  }
 }
 
 header {
@@ -237,5 +245,5 @@ a:active {
 
 footer {
   background: white;
-  font-size: .7rem;
+  font-size: 0.7rem;
 }
