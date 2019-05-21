@@ -68,6 +68,12 @@ Two accessibility acanners were used to validate website:
    * [aXe](https://www.deque.com/axe)
    * [Lighthouse](https://developers.google.com/web/tools/lighthouse/)
 
+### Known issues
+
+   All known defects have been captured as GitHub issues and [marked by 'bug' label](https://github.com/koleaby4/dom-designs/issues?q=is%3Aissue+label%3Abug).
+
+   Example: [Occasional JS error seen in console when loading project photos](https://github.com/koleaby4/dom-designs/issues/24).
+
 
 ## How to run cypress tests
 
