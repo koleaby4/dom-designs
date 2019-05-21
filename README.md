@@ -70,9 +70,9 @@ Two accessibility acanners were used to validate website:
 
 ### Known issues
 
-   All known defects have been captured as GitHub issues and [marked by 'bug' label](https://github.com/koleaby4/dom-designs/issues?q=is%3Aissue+label%3Abug).
-
+   All known defects have been captured as GitHub issues and [marked by 'bug' label](https://github.com/koleaby4/dom-designs/issues?q=is%3Aissue+label%3Abug).<br>
    Example: [Occasional JS error seen in console when loading project photos](https://github.com/koleaby4/dom-designs/issues/24).
+
 
 
 ## How to run cypress tests
@@ -87,6 +87,7 @@ Two accessibility acanners were used to validate website:
    3. Run
       1. `npm run cypress:run` to execute all tests in headless mode
       2. or `npm run cypress:open` to open cypress UI and cherry-pick which tests to run
+
 
 
 ## How website was published
@@ -108,6 +109,7 @@ I truly believe it is a very clear set of instructions and trying to re-write th
 2. CSS validations:
    - [User story](https://github.com/koleaby4/dom-designs/issues/22)
    - [Full report](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fkoleaby4.github.io%2Fdom-designs&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
 
 
 ## List of technologies used
