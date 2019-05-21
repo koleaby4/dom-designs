@@ -37,7 +37,8 @@ Company's website should allow potential customers, who are considering to invol
    3. Accessibility stories are marled [by a11y label](https://github.com/koleaby4/dom-designs/issues?q=is%3Aissue+label%3Aa11y)
    4. Performance considerations
       1. Different resolution images used for mobile and desktops
-      2. Loading of javascript libraries is [deferred](https://www.growingwiththeweb.com/2014/02/async-vs-defer-attributes.html)
+      2. Until this is implemented - limit image size to 1MB
+      3. Loading of javascript libraries is [deferred](https://www.growingwiththeweb.com/2014/02/async-vs-defer-attributes.html)
 
 
 
