@@ -98,8 +98,6 @@ I truly believe it is a very clear set of instructions and trying to re-write th
    1. Won't make them any better
    2. Will violate [KISS principles](https://en.wikipedia.org/wiki/KISS_principle)
 
-I really hope I am not getting penilised for being honest here.
-
 
 
 ## Validations
