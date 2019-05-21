@@ -22,11 +22,11 @@ and provide information about their business to potential customers.
 ## Customers' needs
 
 Company's website should allow potential customers, who are considering to involve interior designers into their projects, to:
-   1. find the company's website online
-   2. find out about range of services offered by Dom Designs and compare them with competitors
-   3. see photos of completed projects
-   4. read feedback from existing customers
-   5. find contact details and enquire about engaging Dom Designs into project work
+   1. Find the company's website online
+   2. Find out about range of services offered by Dom Designs and compare them with competitors
+   3. See photos of completed projects
+   4. Read feedback from existing customers
+   5. Find contact details and enquire about engaging Dom Designs into project work
 
 
 
@@ -55,11 +55,11 @@ Examples:
 ## How we tested it
 
 Functional tests have been carried out manually on regular basis using:
-   - physicsl devices
+   - Physicsl devices
       * Windows10 & Chrome desktop
       * Windows10 & IE11 desktop
       * Google Pixel 2 & Chrome mobile
-   - virtual devices: Apple iPhone X via [SauceLabs](https://saucelabs.com)
+   - Virtual devices: Apple iPhone X via [SauceLabs](https://saucelabs.com)
 
 Automated tests using [cypress](https://www.cypress.io) have been added to landing and services sections.
 Further tests to be added in the future.
@@ -72,13 +72,13 @@ Two accessibility acanners were used to validate website:
 ## How to run cypress tests
 
    Prerequisites:
-   1. clone project's source codes
-   2. make sure you have [npm installed](https://www.npmjs.com/get-npm)
+   1. Clone project's source codes
+   2. Make sure you have [npm installed](https://www.npmjs.com/get-npm)
 
    To execute tests:
-   1. in terminal navigate to project folder
-   2. run `npm install`
-   3. run
+   1. In terminal navigate to project folder
+   2. Run `npm install`
+   3. Run
       1. `npm run cypress:run` to execute all tests in headless mode
       2. or `npm run cypress:open` to open cypress UI and cherry-pick which tests to run
 
@@ -89,8 +89,8 @@ Website had been published into GitHub pages by following instructions provided 
 [Configuring a publishing source for GitHub Pages](https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages).
 
 I truly believe it is a very clear set of instructions and trying to re-write them in my own words:
-   1. won't make them any better
-   2. will violate [KISS principles](https://en.wikipedia.org/wiki/KISS_principle)
+   1. Won't make them any better
+   2. Will violate [KISS principles](https://en.wikipedia.org/wiki/KISS_principle)
 
 I really hope I am not getting penilised for being honest here.
 
@@ -109,8 +109,8 @@ I really hope I am not getting penilised for being honest here.
 
  1. IDE: [Visual Studio Code](https://code.visualstudio.com/)
  2. Web technologies:
-    - [HTML5](https://en.wikipedia.org/wiki/HTML5)
-    - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets#CSS_3)
+    - [HTML](https://en.wikipedia.org/wiki/HTML5)
+    - [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets#CSS_3)
  3. Styling libraries and components:
     - [normalize.css](https://necolas.github.io/normalize.css)
     - [Bootstrap](https://getbootstrap.com)
