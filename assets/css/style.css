@@ -128,6 +128,7 @@ header {
   position: relative;
 }
 
+/* collapse and hide overlay on hover */
 .project-tile:hover .overlay {
   height: 0;
   z-index: -1;
