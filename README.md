@@ -102,11 +102,12 @@ I truly believe it is a very clear set of instructions and trying to re-write th
 
 ## Validations
 
-1. HTML validations should pass
-2. CSS validations should pass
-3. Accessibility tests should pass
-4. Should work on iPhone and Chrome
-
+1. HTML validations:
+   - [User story](https://github.com/koleaby4/dom-designs/issues/21)
+   - [Full report](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fkoleaby4.github.io%2Fdom-designs%2F)
+2. CSS validations:
+   - [User story](https://github.com/koleaby4/dom-designs/issues/22)
+   - [Full report](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fkoleaby4.github.io%2Fdom-designs&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 
 ## List of technologies used
