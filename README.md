@@ -144,9 +144,9 @@ I really hope I am not getting penilised for being honest here.
 1. Images: https://unsplash.com
 2. Testimonials: https://camelliainteriors.co.uk/design-testimonials
 3. Code snippets:
-   - blockquote formatting: https://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/
-   - image overpay: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_fade
- 4. favicons: https://www.34sp.com/blog/the-favicon-is-dead-long-live-the-favicon/
+   - [Blockquote formatting](https://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling)
+   - [Image overpay](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_fade)
+   - [Favicons](https://www.34sp.com/blog/the-favicon-is-dead-long-live-the-favicon)
 
 
 
