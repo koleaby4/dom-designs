@@ -1,5 +1,8 @@
 /* ---- GLOBAL VARIABLES ----  */
 
+/* colour selection:
+  black, white, grey
+  + 1 base colour - orange (associates with creativity, joy & success - good match for interior design) */
 :root {
   --primary-orange: #e95420;
   --secondary-bg-colour: #f7f7f7;
