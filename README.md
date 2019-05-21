@@ -129,6 +129,7 @@ I really hope I am not getting penilised for being honest here.
     - [aXe accessibility scanner](https://www.deque.com/axe)
     - [SauceLabs](https://saucelabs.com) for cross-platform & cross-browser compatibility
  7. Wireframes: [balsamiq](https://balsamiq.com)
+ 8. favicon generator: [favicon.io](https://favicon.io/favicon-generator)
 
 
 
@@ -139,3 +140,4 @@ I really hope I am not getting penilised for being honest here.
 3. Code snippets:
    - blockquote formatting: https://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/
    - image overpay: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_fade
+ 4. favicons: https://www.34sp.com/blog/the-favicon-is-dead-long-live-the-favicon/
