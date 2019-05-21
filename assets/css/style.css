@@ -156,8 +156,6 @@ header {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
 }
@@ -168,7 +166,7 @@ header {
   padding-top: 10px;
   padding-left: 2%;
   background-image:
-      /* redeuce contrast of background */ linear-gradient(
+      /* reduce contrast of background */ linear-gradient(
       rgba(225, 225, 225, 0.4),
       rgba(225, 225, 225, 0.4)
     ),
