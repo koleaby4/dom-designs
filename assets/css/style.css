@@ -43,7 +43,6 @@ h2 {
 /* buttons */
 
 .btn {
-  /*rounded button corners*/
   border-radius: 30px;
 }
 
@@ -67,9 +66,9 @@ h1:after {
   text-transform: uppercase;
 }
 
+/* coloured underlining navbar item on hover */
 .nav a:hover,
 .nav a:active {
-  /* coloured underlining navbar item on hover */
   border-bottom: 2px solid var(--primary-orange);
 }
 
