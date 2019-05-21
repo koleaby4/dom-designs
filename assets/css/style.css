@@ -8,6 +8,9 @@
 
 /*---- GLOBAL STYLES ---- */
 
+/* Roboto: clean, functional, elegant - just like our designs */
+@import url("https://fonts.googleapis.com/css?family=Roboto:300");
+
 html {
   scroll-behavior: smooth;
 }
