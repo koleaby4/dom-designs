@@ -14,14 +14,14 @@ https://koleaby4.github.io/dom-designs
 ## Dom Designs' business goal
 
 The main target we are trying to achieve by developing website for Dom Designs<br>
-is to increasing online presence in order to increase customer base<br>
+is to increase online presence in order to increase customer base<br>
 and provide information about their business to potential customers.
 
 
 
 ## Customers' needs
 
-Company's website should allow potential customers, who are considering to involve interior designers into their projects, to:
+Company's website should allow potential customers, who consider involving interior designers into their projects, to:
    1. Find the company's website online
    2. Find out about range of services offered by Dom Designs and compare them with competitors
    3. See photos of completed projects
@@ -32,7 +32,7 @@ Company's website should allow potential customers, who are considering to invol
 
 ## User Stories
 
-All user stories have beed tracked using GitHub's [issues section](https://github.com/koleaby4/dom-designs/issues?utf8=%E2%9C%93&q=is%3Aissue),
+All user stories have been tracked using GitHub's [issues section](https://github.com/koleaby4/dom-designs/issues?utf8=%E2%9C%93&q=is%3Aissue),
 which is a lightweight equivalent of [Jira](https://www.atlassian.com/software/jira), <br>
 which is widely used for planning and tracking software development activities.
 
@@ -44,12 +44,12 @@ Example of a bug: [Contacts section is misaligned in IE11](https://github.com/ko
 
 Additional labels have been introduced to help categorising and filtering tasks:
    1. Non-functional requirements are marked [by NFR label](https://github.com/koleaby4/dom-designs/issues?utf8=%E2%9C%93&q=label%3ANFR)
-   1. Accessibility stories are marled [by a11y label](https://github.com/koleaby4/dom-designs/issues?q=is%3Aissue+label%3Aa11y)
+   1. Accessibility stories are marked [by a11y label](https://github.com/koleaby4/dom-designs/issues?q=is%3Aissue+label%3Aa11y)
 
 Performance considerations
       1. At the first stage of the project we want to [limit size of images to 300Kb](https://github.com/koleaby4/dom-designs/issues/30)
-      2. In the future, we want different resolution images to be used used for [mobile](https://github.com/koleaby4/dom-designs/issues/3) and [desktops](https://github.com/koleaby4/dom-designs/issues/4)
-      3. Loading of javascript libraries is [deferred](https://www.growingwiththeweb.com/2014/02/async-vs-defer-attributes.html)
+      2. In the future, we want different resolution images to be used for [mobile](https://github.com/koleaby4/dom-designs/issues/3)  and [desktops](https://github.com/koleaby4/dom-designs/issues/4)
+      3. Loading of JavaScript libraries is [deferred](https://www.growingwiththeweb.com/2014/02/async-vs-defer-attributes.html)
 
 
 
@@ -67,7 +67,7 @@ Examples:
 ## How we tested it
 
 Functional tests have been carried out manually on regular basis using:
-   - Physicsl devices
+   - Physical devices
       * Windows10 & Chrome desktop
       * Windows10 & IE11 desktop
       * Google Pixel 2 & Chrome mobile
@@ -76,7 +76,7 @@ Functional tests have been carried out manually on regular basis using:
 Automated tests using [cypress](https://www.cypress.io) have been added to landing and services sections.
 We also created a task to [add more automated tests](https://github.com/koleaby4/dom-designs/issues/20) in the future.
 
-Two accessibility acanners were used to validate website:
+Two accessibility scanners were used to validate website:
    * [aXe](https://www.deque.com/axe)
    * [Lighthouse](https://developers.google.com/web/tools/lighthouse/)
 
@@ -142,7 +142,7 @@ I truly believe it is a very clear set of instructions and trying to re-write th
     - [Bootstrap](https://getbootstrap.com)
     - [Bootswatch](https://bootswatch.com)
     - [Google fonts](https://fonts.google.com)
-    - [Fontawesome](https://fontawesome.com) || [flaticon](https://www.flaticon.com) || [ionicons](https://ionicons.com/)
+    - [Fontawesome](https://fontawesome.com)
     - [Fancybox](https://fancyapps.com)
  4. Source code versioning:
     - [Git](https://en.wikipedia.org/wiki/Git)
