@@ -112,6 +112,13 @@ I truly believe it is a very clear set of instructions and trying to re-write th
    2. Will violate [KISS principles](https://en.wikipedia.org/wiki/KISS_principle)
 
 
+## How to open it locally
+
+1. Navigate to project repository: https://github.com/koleaby4/dom-designs
+2. Follow [GitHub cloning instructions](https://help.github.com/en/articles/cloning-a-repository) to download or clone source files
+3. Navigate to the project folder and open `index.html` in your web browser
+
+
 
 ## Validations
 
