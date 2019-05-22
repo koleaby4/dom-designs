@@ -220,7 +220,7 @@ blockquote p {
 /* increase contrast with background behind quote text on mobile */
 @media (max-width: 768px) {
   .testimonial-plate {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.8);
     padding-top: 1rem;
     padding-bottom: 1rem;
   }
