@@ -30,14 +30,25 @@ Company's website should allow potential customers, who are considering to invol
 
 
 
-## Requirements
+## User Stories
 
-   1. Requirements have beed tracked [in issues part](https://github.com/koleaby4/dom-designs/issues?utf8=%E2%9C%93&q=is%3Aissue) of GitHub project page
-   2. Non-functional requirements are marked [by NFR label](https://github.com/koleaby4/dom-designs/issues?utf8=%E2%9C%93&q=label%3ANFR)
-   3. Accessibility stories are marled [by a11y label](https://github.com/koleaby4/dom-designs/issues?q=is%3Aissue+label%3Aa11y)
-   4. Performance considerations
-      1. Different resolution images used for mobile and desktops
-      2. Until this is implemented - limit image size to 1MB
+All user stories have beed tracked using GitHub's [issues section](https://github.com/koleaby4/dom-designs/issues?utf8=%E2%9C%93&q=is%3Aissue),
+which is a lightweight equivalent of [Jira](https://www.atlassian.com/software/jira), <br>
+which is widely used for planning and tracking software development activities.
+
+By default all tickets represent user stories.<br>
+Example of a user story: [Build 'Testimonials' section for mobile view](https://github.com/koleaby4/dom-designs/issues/16)
+
+Only tickets with 'bug' label, represent defects in code, which have been found during testing.
+Example of a bug: [Contacts section is misaligned in IE11](https://github.com/koleaby4/dom-designs/issues/24)
+
+Additional labels have been introduced to help categorising and filtering tasks:
+   1. Non-functional requirements are marked [by NFR label](https://github.com/koleaby4/dom-designs/issues?utf8=%E2%9C%93&q=label%3ANFR)
+   1. Accessibility stories are marled [by a11y label](https://github.com/koleaby4/dom-designs/issues?q=is%3Aissue+label%3Aa11y)
+
+Performance considerations
+      1. At the first stage of the project we want to [limit size of images to 300Kb](https://github.com/koleaby4/dom-designs/issues/30)
+      2. In the future, we want different resolution images to be used used for [mobile](https://github.com/koleaby4/dom-designs/issues/3) and [desktops](https://github.com/koleaby4/dom-designs/issues/4)
       3. Loading of javascript libraries is [deferred](https://www.growingwiththeweb.com/2014/02/async-vs-defer-attributes.html)
 
 
@@ -45,6 +56,7 @@ Company's website should allow potential customers, who are considering to invol
 ## Wireframes
 
 Wireframes have been implemented using [balsamiq](https://balsamiq.com) <br>and attached to respective user stories.
+In this way developers would know exactly what they should implement, which picking up respective stories.
 
 Examples:
    - [Desktop Contacts Section](https://github.com/koleaby4/dom-designs/issues/19)
@@ -62,7 +74,7 @@ Functional tests have been carried out manually on regular basis using:
    - Virtual devices: Apple iPhone X via [SauceLabs](https://saucelabs.com)
 
 Automated tests using [cypress](https://www.cypress.io) have been added to landing and services sections.
-Further tests to be added in the future.
+We also created a task to [add more automated tests](https://github.com/koleaby4/dom-designs/issues/20) in the future.
 
 Two accessibility acanners were used to validate website:
    * [aXe](https://www.deque.com/axe)
@@ -70,8 +82,8 @@ Two accessibility acanners were used to validate website:
 
 ### Known issues
 
-   All known defects have been captured as GitHub issues and [marked by 'bug' label](https://github.com/koleaby4/dom-designs/issues?q=is%3Aissue+label%3Abug).<br>
-   Example: [Occasional JS error seen in console when loading project photos](https://github.com/koleaby4/dom-designs/issues/24).
+All known defects have been captured as GitHub issues and [marked by 'bug' label](https://github.com/koleaby4/dom-designs/issues?q=is%3Aissue+label%3Abug).<br>
+Example: [Occasional JS error seen in console when loading project photos](https://github.com/koleaby4/dom-designs/issues/24).
 
 
 
