@@ -1,574 +1,407 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <!-- favicons start -->
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
-    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
-    <!-- favicons end -->
-    <link rel="stylesheet" href="assets/css/normalize.css" />
-    <link
-      href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/united/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"
-    />
-    <!-- consciously keeping these scripts in head - 'defer' should give better performance
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <!-- favicons start -->
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+  <!-- favicons end -->
+  <link rel="stylesheet" href="assets/css/normalize.css" />
+  <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/united/bootstrap.min.css"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" />
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  <!-- consciously keeping these scripts in head - 'defer' should give better performance
       according to this article https://www.growingwiththeweb.com/2014/02/async-vs-defer-attributes.html
     -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script
-      defer
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-    ></script>
-    <script
-      defer
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-    ></script>
-    <script
-      defer
-      src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"
-    ></script>
-    <title>Dom Designs</title>
-    <link rel="stylesheet" href="assets/css/style.css" />
-  </head>
-  <body>
-    <!-- NAVBAR & LANDING PAGE -->
-    <header class="container-fluid">
-      <nav class="navbar navbar-expand-md navbar-light">
-        <a class="navbar-brand" href="#">Dom Designs</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarColor03"
-          aria-controls="navbarColor03"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-          data-test="hamburger-button"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <script defer
+    src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  <title>Dom Designs</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
 
-        <div
-          class="collapse navbar-collapse justify-content-end"
-          id="navbarColor03"
-        >
-          <ul class="navbar-nav nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#services" data-test="services-link"
-                >Services</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#projects" data-test="projects-link"
-                >Projects</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                href="#testimonials"
-                data-test="testimonials-link"
-                >Testimonials</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contacts" data-test="contacts-link"
-                >Contacts</a
-              >
-            </li>
-          </ul>
-        </div>
-      </nav>
-      <div class="btn-holder">
-        <button
-          type="button"
-          class="btn btn-primary btn-projects"
-          data-test="our-projects-CTA"
-          onclick="window.location.href = '#services';"
-        >
-          Learn more
-        </button>
+<body>
+  <!-- NAVBAR & LANDING PAGE -->
+  <header class="container-fluid">
+    <nav class="navbar navbar-expand-md navbar-light">
+      <a class="navbar-brand" href="#">Dom Designs</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03"
+        aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation"
+        data-test="hamburger-button">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarColor03">
+        <ul class="navbar-nav nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#services" data-test="services-link">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects" data-test="projects-link">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#testimonials" data-test="testimonials-link">Testimonials</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacts" data-test="contacts-link">Contacts</a>
+          </li>
+        </ul>
       </div>
-    </header>
+    </nav>
+    <div class="btn-holder">
+      <button type="button" class="btn btn-primary btn-projects" data-test="our-projects-CTA"
+        onclick="window.location.href = '#services';">
+        Learn more
+      </button>
+    </div>
+  </header>
 
-    <!-- SERVICES -->
-    <section class="section-services" id="services">
-      <h1 class="section-header" data-test="section-title">
-        Tailored to Your Requirements
-      </h1>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-4 service-tile">
-            <i class="fas fa-file-signature text-primary"></i>
-            <h2 class="service-header">Specifications</h2>
-            <p class="service-description">
-              Discussing your requirements and creating technical documentation,
-              which will be used in the process of fulfilling your design
-              project.
+  <!-- SERVICES -->
+  <section class="section-services" id="services">
+    <h1 class="section-header" data-test="section-title">
+      Tailored to Your Requirements
+    </h1>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-4 service-tile">
+          <i class="fas fa-file-signature text-primary"></i>
+          <h2 class="service-header">Specifications</h2>
+          <p class="service-description">
+            Discussing your requirements and creating technical documentation,
+            which will be used in the process of fulfilling your design
+            project.
+          </p>
+        </div>
+
+        <div class="col-md-4 service-tile">
+          <i class="fas fa-cubes text-primary"></i>
+          <h2 class="service-header">Visualisation</h2>
+          <p class="service-description">
+            3D visual models of the proposed design solution are presented to
+            you - to give you a good understanding of the expected result.
+          </p>
+        </div>
+
+        <div class="col-md-4 service-tile">
+          <i class="fas fa-clipboard-list text-primary"></i>
+          <h2 class="service-header">Implementation</h2>
+          <p class="service-description">
+            You can appoint us to organise implementation phase. We'll make
+            sure that each part of the design is implemented accordingly
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- PROJECTS -->
+  <section class="section-projects" id="projects">
+    <h1 class="section-header">Our projects</h1>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="project-tile col-md-6">
+          <a href="assets/images/project1/cinema.jpg" data-fancybox="project1"
+            data-thumbs='{"autoStart":true}'>
+            <img src="assets/images/project1/cinema.jpg" alt="project one image gallery" />
+          </a>
+          <div class="overlay">
+            <span class="text">London, 2019</span>
+          </div>
+          <div style="display: none;">
+            <a href="assets/images/project1/office.jpg" data-fancybox="project1"
+              data-thumb="assets/images/project1/office.jpg"></a>
+
+            <a href="assets/images/project1/playroom.jpg" data-fancybox="project1"
+              data-thumb="assets/images/project1/playroom.jpg"></a>
+
+            <a href="assets/images/project1/stairs.jpg" data-fancybox="project1"
+              data-thumb="assets/images/project1/stairs.jpg"></a>
+
+            <a href="assets/images/project1/table.jpg" data-fancybox="project1"
+              data-thumb="assets/images/project1/table.jpg"></a>
+
+            <a href="assets/images/project1/laundery.jpg" data-fancybox="project1"
+              data-thumb="assets/images/project1/laundery.jpg"></a>
+          </div>
+        </div>
+        <div class="project-tile col-md-6">
+          <a href="assets/images/project2/living.jpg" data-fancybox="project2"
+            data-thumbs='{"autoStart":true}'>
+            <img src="assets/images/project2/living.jpg" alt="project two image gallery" />
+          </a>
+          <div class="overlay">
+            <span class="text">New York, 2018</span>
+          </div>
+          <div style="display: none;">
+            <a href="assets/images/project2/living2.jpg" data-fancybox="project2"
+              data-thumb="assets/images/project2/living2.jpg"></a>
+
+            <a href="assets/images/project2/kitchen.jpg" data-fancybox="project2"
+              data-thumb="assets/images/project2/kitchen.jpg"></a>
+
+            <a href="assets/images/project2/dressing.jpg" data-fancybox="project2"
+              data-thumb="assets/images/project2/dressing.jpg"></a>
+
+            <a href="assets/images/project2/bedroom.jpg" data-fancybox="project2"
+              data-thumb="assets/images/project2/bedroom.jpg"></a>
+
+            <a href="assets/images/project2/bathroom.jpg" data-fancybox="project2"
+              data-thumb="assets/images/project2/bathroom.jpg"></a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="project-tile col-md-4">
+          <a href="assets/images/project3/bathroom.jpg" data-fancybox="project3"
+            data-thumbs='{"autoStart":true}'>
+            <img src="assets/images/project3/bathroom.jpg" alt="project three image gallery" />
+          </a>
+          <div class="overlay">
+            <span class="text">Moscow, 2018</span>
+          </div>
+          <div style="display: none;">
+            <a href="assets/images/project3/living-room.jpg" data-fancybox="project3"
+              data-thumb="assets/images/project3/living-room.jpg"></a>
+
+            <a href="assets/images/project3/kitchen.jpg" data-fancybox="project3"
+              data-thumb="assets/images/project3/kitchen.jpg"></a>
+
+            <a href="assets/images/project3/hall.jpg" data-fancybox="project3"
+              data-thumb="assets/images/project3/hall.jpg"></a>
+
+            <a href="assets/images/project3/living-room2.jpg" data-fancybox="project3"
+              data-thumb="assets/images/project3/living-room2.jpg"></a>
+
+            <a href="assets/images/project3/bedroom.jpg" data-fancybox="project3"
+              data-thumb="assets/images/project3/bedroom.jpg"></a>
+          </div>
+        </div>
+        <div class="project-tile col-md-4">
+          <a href="assets/images/project4/living-room.jpg" data-fancybox="project4"
+            data-thumbs='{"autoStart":true}'>
+            <img src="assets/images/project4/living-room.jpg" alt="project four image gallery" />
+          </a>
+          <div class="overlay">
+            <span class="text">Paris, 2018</span>
+          </div>
+          <div style="display: none;">
+            <a href="assets/images/project4/guest-room.jpg" data-fancybox="project4"
+              data-thumb="assets/images/project4/guest-room.jpg"></a>
+
+            <a href="assets/images/project4/guest-room-2.jpg" data-fancybox="project4"
+              data-thumb="assets/images/project4/guest-room-2.jpg"></a>
+
+            <a href="assets/images/project4/kitchen.jpg" data-fancybox="project4"
+              data-thumb="assets/images/project4/kitchen.jpg"></a>
+
+            <a href="assets/images/project4/bedroom.jpg" data-fancybox="project4"
+              data-thumb="assets/images/project4/bedroom.jpg"></a>
+
+            <a href="assets/images/project4/bathroom_2.jpg" data-fancybox="project4"
+              data-thumb="assets/images/project4/bathroom_2.jpg"></a>
+          </div>
+        </div>
+        <div class="project-tile col-md-4">
+          <a href="assets/images/project5/living-room.jpg" data-fancybox="project5"
+            data-thumbs='{"autoStart":true}'>
+            <img src="assets/images/project5/living-room.jpg" alt="project five image gallery" />
+          </a>
+          <div class="overlay">
+            <span class="text">London, 2017</span>
+          </div>
+          <div style="display: none;">
+            <a href="assets/images/project5/library.jpg" data-fancybox="project5"
+              data-thumb="assets/images/project5/library.jpg"></a>
+
+            <a href="assets/images/project5/stairs.jpg" data-fancybox="project5"
+              data-thumb="assets/images/project5/stairs.jpg"></a>
+
+            <a href="assets/images/project5/kitchen.jpg" data-fancybox="project5"
+              data-thumb="assets/images/project5/kitchen.jpg"></a>
+
+            <a href="assets/images/project5/bathroom.jpg" data-fancybox="project5"
+              data-thumb="assets/images/project5/bathroom.jpg"></a>
+
+            <a href="assets/images/project5/bedroom_3.jpg" data-fancybox="project5"
+              data-thumb="assets/images/project5/bedroom_3.jpg"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="section-testimonials" id="testimonials">
+    <h1 class="section-header">What our customers are saying</h1>
+    <div class="testimonials-panel container-fluid">
+      <div class="row">
+        <div class="col-md-4 testimonial-plate">
+          <blockquote>
+            <p>
+              We would like to thank you for all the work you have put into
+              our project. We are really pleased with how our house looks now.
             </p>
+          </blockquote>
+          <div class="customer">
+            <img src="assets/images/alison.jpg" alt="allison" />
+            Alison Vivian
           </div>
-
-          <div class="col-md-4 service-tile">
-            <i class="fas fa-cubes text-primary"></i>
-            <h2 class="service-header">Visualisation</h2>
-            <p class="service-description">
-              3D visual models of the proposed design solution are presented to
-              you - to give you a good understanding of the expected result.
+        </div>
+        <div class="col-md-4"></div>
+        <div class="col-md-4 testimonial-plate">
+          <blockquote>
+            <p>
+              Our flat is so bright and lively! We were be a bit hectic and
+              have changed our minds several times - your patience has helped
+              us a lot.
             </p>
+          </blockquote>
+          <div class="customer">
+            Private Client
           </div>
-
-          <div class="col-md-4 service-tile">
-            <i class="fas fa-clipboard-list text-primary"></i>
-            <h2 class="service-header">Implementation</h2>
-            <p class="service-description">
-              You can appoint us to organise implementation phase. We'll make
-              sure that each part of the design is implemented accordingly
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 testimonial-plate">
+          <blockquote>
+            <p>
+              It was wonderful to get such good advice and not to have to
+              trawl around the shops. Loved your ideas and would never have
+              picked them ourselves!
             </p>
+          </blockquote>
+          <div class="customer">
+            <img src="assets/images/timothy.jpg" alt="allison" />
+            Timmothy Wagner
+          </div>
+        </div>
+        <div class="col-md-4"></div>
+        <div class="col-md-4 testimonial-plate">
+          <blockquote>
+            <p>
+              It is so nice to be able to go to the office knowing that all
+              the work is going to be done thoroughly while you are away. You
+              certainly took the hassle out and it was great just having one
+              point of contact who shared the same vision.
+            </p>
+          </blockquote>
+          <div class="customer">
+            <img src="assets/images/scarlett.jpg" alt="allison" />
+            Scarlett Howard
           </div>
         </div>
       </div>
-    </section>
-    <!-- PROJECTS -->
-    <section class="section-projects" id="projects">
-      <h1 class="section-header">Our projects</h1>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="project-tile col-md-6">
-            <a
-              href="assets/images/project1/cinema.jpg"
-              data-fancybox="project1"
-              data-thumbs='{"autoStart":true}'
-            >
-              <img
-                src="assets/images/project1/cinema.jpg"
-                alt="project one image gallery"
-              />
-            </a>
-            <div class="overlay">
-              <span class="text">London, 2019</span>
+    </div>
+  </section>
+
+  <!-- CONTACTS -->
+  <section class="section-contacts" id="contacts">
+    <h1 class="section-header">Contact us in one of these locations</h1>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6 contact-tile">
+          <img src="assets/images/london-hr.jpg" alt="london" />
+          <h2>London</h2>
+          <div class="contact-details">
+            <div class="email">
+              <i class="far fa-envelope"></i>
+              <a
+                href="mailto:london@dom-designs.comSubject=Regarding%20design%20project">london@dom-designs.com</a>
             </div>
-            <div style="display: none;">
-              <a
-                href="assets/images/project1/office.jpg"
-                data-fancybox="project1"
-                data-thumb="assets/images/project1/office.jpg"
-              ></a>
-
-              <a
-                href="assets/images/project1/playroom.jpg"
-                data-fancybox="project1"
-                data-thumb="assets/images/project1/playroom.jpg"
-              ></a>
-
-              <a
-                href="assets/images/project1/stairs.jpg"
-                data-fancybox="project1"
-                data-thumb="assets/images/project1/stairs.jpg"
-              ></a>
-
-              <a
-                href="assets/images/project1/table.jpg"
-                data-fancybox="project1"
-                data-thumb="assets/images/project1/table.jpg"
-              ></a>
-
-              <a
-                href="assets/images/project1/laundery.jpg"
-                data-fancybox="project1"
-                data-thumb="assets/images/project1/laundery.jpg"
-              ></a>
+            <div class="phone">
+              <i class="fas fa-phone"></i>
+              +445555-481-674
             </div>
-          </div>
-          <div class="project-tile col-md-6">
-            <a
-              href="assets/images/project2/living.jpg"
-              data-fancybox="project2"
-              data-thumbs='{"autoStart":true}'
-            >
-              <img
-                src="assets/images/project2/living.jpg"
-                alt="project two image gallery"
-              />
-            </a>
-            <div class="overlay">
-              <span class="text">New York, 2018</span>
-            </div>
-            <div style="display: none;">
-              <a
-                href="assets/images/project2/living2.jpg"
-                data-fancybox="project2"
-                data-thumb="assets/images/project2/living2.jpg"
-              ></a>
-
-              <a
-                href="assets/images/project2/kitchen.jpg"
-                data-fancybox="project2"
-                data-thumb="assets/images/project2/kitchen.jpg"
-              ></a>
-
-              <a
-                href="assets/images/project2/dressing.jpg"
-                data-fancybox="project2"
-                data-thumb="assets/images/project2/dressing.jpg"
-              ></a>
-
-              <a
-                href="assets/images/project2/bedroom.jpg"
-                data-fancybox="project2"
-                data-thumb="assets/images/project2/bedroom.jpg"
-              ></a>
-
-              <a
-                href="assets/images/project2/bathroom.jpg"
-                data-fancybox="project2"
-                data-thumb="assets/images/project2/bathroom.jpg"
-              ></a>
+            <div class="address">
+              <i class="fas fa-map-marked-alt"></i>
+              <a href="https://goo.gl/maps/k2YNZsXXyzHegAEJ7" target="_blank" rel="noopener">224 Kensington
+                St, W8 6AG</a>
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="project-tile col-md-4">
-            <a
-              href="assets/images/project3/bathroom.jpg"
-              data-fancybox="project3"
-              data-thumbs='{"autoStart":true}'
-            >
-              <img
-                src="assets/images/project3/bathroom.jpg"
-                alt="project three image gallery"
-              />
-            </a>
-            <div class="overlay">
-              <span class="text">Moscow, 2018</span>
+
+        <div class="col-lg-6 contact-tile">
+          <img src="assets/images/new-york-hr.jpg" alt="new york" />
+
+          <h2>New York</h2>
+
+          <div class="contact-details">
+            <div class="email">
+              <i class="far fa-envelope"></i>
+              <a
+                href="mailto:new-york@dom-designs.com?Subject=Regarding%20design%20project">new-york@dom-designs.com</a>
             </div>
-            <div style="display: none;">
-              <a
-                href="assets/images/project3/living-room.jpg"
-                data-fancybox="project3"
-                data-thumb="assets/images/project3/living-room.jpg"
-              ></a>
-
-              <a
-                href="assets/images/project3/kitchen.jpg"
-                data-fancybox="project3"
-                data-thumb="assets/images/project3/kitchen.jpg"
-              ></a>
-
-              <a
-                href="assets/images/project3/hall.jpg"
-                data-fancybox="project3"
-                data-thumb="assets/images/project3/hall.jpg"
-              ></a>
-
-              <a
-                href="assets/images/project3/living-room2.jpg"
-                data-fancybox="project3"
-                data-thumb="assets/images/project3/living-room2.jpg"
-              ></a>
-
-              <a
-                href="assets/images/project3/bedroom.jpg"
-                data-fancybox="project3"
-                data-thumb="assets/images/project3/bedroom.jpg"
-              ></a>
+            <div class="phone">
+              <i class="fas fa-phone"></i>
+              +15555-184-581
+            </div>
+            <div class="address">
+              <i class="fas fa-map-marked-alt"></i>
+              <a href="https://goo.gl/maps/Z1VfenDQipTrPamp8" target="_blank" rel="noopener">200 Lexington
+                Ave, NY 10016</a>
             </div>
           </div>
-          <div class="project-tile col-md-4">
-            <a
-              href="assets/images/project4/living-room.jpg"
-              data-fancybox="project4"
-              data-thumbs='{"autoStart":true}'
-            >
-              <img
-                src="assets/images/project4/living-room.jpg"
-                alt="project four image gallery"
-              />
-            </a>
-            <div class="overlay">
-              <span class="text">Paris, 2018</span>
+        </div>
+
+        <div class="col-lg-6 contact-tile">
+          <img src="assets/images/moscow-hr.jpg" alt="moscow" />
+          <h2>Moscow</h2>
+
+          <div class="contact-details">
+            <div class="email">
+              <i class="far fa-envelope"></i>
+              <a
+                href="mailto:moscow@dom-designs.com?Subject=значит%20делаем%20так...">moscow@dom-designs.com</a>
             </div>
-            <div style="display: none;">
-              <a
-                href="assets/images/project4/guest-room.jpg"
-                data-fancybox="project4"
-                data-thumb="assets/images/project4/guest-room.jpg"
-              ></a>
-
-              <a
-                href="assets/images/project4/guest-room-2.jpg"
-                data-fancybox="project4"
-                data-thumb="assets/images/project4/guest-room-2.jpg"
-              ></a>
-
-              <a
-                href="assets/images/project4/kitchen.jpg"
-                data-fancybox="project4"
-                data-thumb="assets/images/project4/kitchen.jpg"
-              ></a>
-
-              <a
-                href="assets/images/project4/bedroom.jpg"
-                data-fancybox="project4"
-                data-thumb="assets/images/project4/bedroom.jpg"
-              ></a>
-
-              <a
-                href="assets/images/project4/bathroom_2.jpg"
-                data-fancybox="project4"
-                data-thumb="assets/images/project4/bathroom_2.jpg"
-              ></a>
+            <div class="phone">
+              <i class="fas fa-phone"></i>
+              +75555-657-852
+            </div>
+            <div class="address">
+              <i class="fas fa-map-marked-alt"></i>
+              <a href="https://goo.gl/maps/wbdBPeUh5b6ud86S9" target="_blank" rel="noopener">New Arbat Ave,
+                21, 119019</a>
             </div>
           </div>
-          <div class="project-tile col-md-4">
-            <a
-              href="assets/images/project5/living-room.jpg"
-              data-fancybox="project5"
-              data-thumbs='{"autoStart":true}'
-            >
-              <img
-                src="assets/images/project5/living-room.jpg"
-                alt="project five image gallery"
-              />
-            </a>
-            <div class="overlay">
-              <span class="text">London, 2017</span>
+        </div>
+
+        <div class="col-lg-6 contact-tile">
+          <img src="assets/images/paris.jpg" alt="paris" />
+          <h2>Paris</h2>
+
+          <div class="contact-details">
+            <div class="email">
+              <i class="far fa-envelope"></i>
+              <a
+                href="mailto:paris@dom-designs.com?Subject=demande%20de%20conception">paris@dom-designs.com</a>
             </div>
-            <div style="display: none;">
-              <a
-                href="assets/images/project5/library.jpg"
-                data-fancybox="project5"
-                data-thumb="assets/images/project5/library.jpg"
-              ></a>
-
-              <a
-                href="assets/images/project5/stairs.jpg"
-                data-fancybox="project5"
-                data-thumb="assets/images/project5/stairs.jpg"
-              ></a>
-
-              <a
-                href="assets/images/project5/kitchen.jpg"
-                data-fancybox="project5"
-                data-thumb="assets/images/project5/kitchen.jpg"
-              ></a>
-
-              <a
-                href="assets/images/project5/bathroom.jpg"
-                data-fancybox="project5"
-                data-thumb="assets/images/project5/bathroom.jpg"
-              ></a>
-
-              <a
-                href="assets/images/project5/bedroom_3.jpg"
-                data-fancybox="project5"
-                data-thumb="assets/images/project5/bedroom_3.jpg"
-              ></a>
+            <div class="phone">
+              <i class="fas fa-phone"></i>
+              +335555-657-158
+            </div>
+            <div class="address">
+              <i class="fas fa-map-marked-alt"></i>
+              <a href="https://goo.gl/maps/J5JgfWHurhGAMXvM9" target="_blank" rel="noopener">214 Rue de
+                Grenelle, 75007</a>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- TESTIMONIALS -->
-    <section class="section-testimonials" id="testimonials">
-      <h1 class="section-header">What our customers are saying</h1>
-      <div class="testimonials-panel container-fluid">
-        <div class="row">
-          <div class="col-md-4 testimonial-plate">
-            <blockquote>
-              <p>
-                We would like to thank you for all the work you have put into
-                our project. We are really pleased with how our house looks now.
-              </p>
-            </blockquote>
-            <div class="customer">
-              <img src="assets/images/alison.jpg" alt="allison" />
-              Alison Vivian
-            </div>
-          </div>
-          <div class="col-md-4"></div>
-          <div class="col-md-4 testimonial-plate">
-            <blockquote>
-              <p>
-                Our flat is so bright and lively! We were be a bit hectic and
-                have changed our minds several times - your patience has helped
-                us a lot.
-              </p>
-            </blockquote>
-            <div class="customer">
-              Private Client
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4 testimonial-plate">
-            <blockquote>
-              <p>
-                It was wonderful to get such good advice and not to have to
-                trawl around the shops. Loved your ideas and would never have
-                picked them ourselves!
-              </p>
-            </blockquote>
-            <div class="customer">
-              <img src="assets/images/timothy.jpg" alt="allison" />
-              Timmothy Wagner
-            </div>
-          </div>
-          <div class="col-md-4"></div>
-          <div class="col-md-4 testimonial-plate">
-            <blockquote>
-              <p>
-                It is so nice to be able to go to the office knowing that all
-                the work is going to be done thoroughly while you are away. You
-                certainly took the hassle out and it was great just having one
-                point of contact who shared the same vision.
-              </p>
-            </blockquote>
-            <div class="customer">
-              <img src="assets/images/scarlett.jpg" alt="allison" />
-              Scarlett Howard
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+  <footer class="container-fluid">
+    © 2019 - Site developed by
+    <a href="https://www.linkedin.com/in/nicolai-negru-a591355">Nicolai Negru</a>
+  </footer>
+</body>
 
-    <!-- CONTACTS -->
-    <section class="section-contacts" id="contacts">
-      <h1 class="section-header">Contact us in one of these locations</h1>
-
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-lg-6 contact-tile">
-            <img src="assets/images/london-hr.jpg" alt="london" />
-            <h2>London</h2>
-            <div class="contact-details">
-              <div class="email">
-                <i class="far fa-envelope"></i>
-                <a
-                  href="mailto:london@dom-designs.comSubject=Regarding%20design%20project"
-                  >london@dom-designs.com</a
-                >
-              </div>
-              <div class="phone">
-                <i class="fas fa-phone"></i>
-                +445555-481-674
-              </div>
-              <div class="address">
-                <i class="fas fa-map-marked-alt"></i>
-                <a
-                  href="https://goo.gl/maps/k2YNZsXXyzHegAEJ7"
-                  target="_blank"
-                  rel="noopener"
-                  >224 Kensington St, W8 6AG</a
-                >
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-6 contact-tile">
-            <img src="assets/images/new-york-hr.jpg" alt="new york" />
-            <h2>New York</h2>
-
-            <div class="contact-details">
-              <div class="email">
-                <i class="far fa-envelope"></i>
-                <a
-                  href="mailto:new-york@dom-designs.com?Subject=Regarding%20design%20project"
-                  >new-york@dom-designs.com</a
-                >
-              </div>
-              <div class="phone">
-                <i class="fas fa-phone"></i>
-                +15555-184-581
-              </div>
-              <div class="address">
-                <i class="fas fa-map-marked-alt"></i>
-                <a
-                  href="https://goo.gl/maps/Z1VfenDQipTrPamp8"
-                  target="_blank"
-                  rel="noopener"
-                  >200 Lexington Ave, NY 10016</a
-                >
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-6 contact-tile">
-            <img src="assets/images/moscow-hr.jpg" alt="moscow" />
-            <h2>Moscow</h2>
-
-            <div class="contact-details">
-              <div class="email">
-                <i class="far fa-envelope"></i>
-                <a
-                  href="mailto:moscow@dom-designs.com?Subject=значит%20делаем%20так..."
-                  >moscow@dom-designs.com</a
-                >
-              </div>
-              <div class="phone">
-                <i class="fas fa-phone"></i>
-                +75555-657-852
-              </div>
-              <div class="address">
-                <i class="fas fa-map-marked-alt"></i>
-                <a
-                  href="https://goo.gl/maps/wbdBPeUh5b6ud86S9"
-                  target="_blank"
-                  rel="noopener"
-                  >New Arbat Ave, 21, 119019</a
-                >
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-6 contact-tile">
-            <img src="assets/images/paris.jpg" alt="paris" />
-            <h2>Paris</h2>
-
-            <div class="contact-details">
-              <div class="email">
-                <i class="far fa-envelope"></i>
-                <a
-                  href="mailto:paris@dom-designs.com?Subject=demande%20de%20conception"
-                  >paris@dom-designs.com</a
-                >
-              </div>
-              <div class="phone">
-                <i class="fas fa-phone"></i>
-                +335555-657-158
-              </div>
-              <div class="address">
-                <i class="fas fa-map-marked-alt"></i>
-                <a
-                  href="https://goo.gl/maps/J5JgfWHurhGAMXvM9"
-                  target="_blank"
-                  rel="noopener"
-                  >214 Rue de Grenelle, 75007</a
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <footer class="container-fluid">
-      © 2019 - Site developed by
-      <a href="https://www.linkedin.com/in/nicolai-negru-a591355"
-        >Nicolai Negru</a
-      >
-    </footer>
-  </body>
 </html>
