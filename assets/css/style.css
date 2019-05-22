@@ -1,7 +1,7 @@
 /* ---- GLOBAL VARIABLES ----  */
 
 /* colour selection:
-  black, white, grey
+  black, #fff, grey
   + 1 base colour - orange (associates with creativity, joy & success - good match for interior design) */
 :root {
   --primary-orange: #e95420;
@@ -25,7 +25,7 @@ html {
 }
 
 html {
-  background-color: white;
+  background-color: #fff;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-size: 20px;
@@ -162,7 +162,7 @@ header {
 }
 
 .text {
-  color: white;
+  color: #fff;
   font-size: 20px;
   position: absolute;
   top: 50%;
@@ -282,6 +282,6 @@ a:active {
 /* FOOTER */
 
 footer {
-  background: white;
+  background: #fff;
   font-size: 0.7rem;
 }
