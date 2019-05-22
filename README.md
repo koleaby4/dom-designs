@@ -22,11 +22,16 @@ and provide information about their business to potential customers.
 ## Customers' needs
 
 Company's website should allow potential customers, who consider involving interior designers into their projects, to:
-   1. Find the company's website online
+   1. Find the company's website online ([Story 31](https://github.com/koleaby4/dom-designs/issues/31)
+      and [Story 28](https://github.com/koleaby4/dom-designs/issues/28))
    2. Find out about range of services offered by Dom Designs and compare them with competitors
-   3. See photos of completed projects
-   4. Read feedback from existing customers
-   5. Find contact details and enquire about engaging Dom Designs into project work
+      ([Story 12](https://github.com/koleaby4/dom-designs/issues/12) and [Story 13](https://github.com/koleaby4/dom-designs/issues/13))
+   3. See photos of completed projects ([Story 14](https://github.com/koleaby4/dom-designs/issues/14)
+      and [Story 15](https://github.com/koleaby4/dom-designs/issues/15))
+   4. Read feedback from existing customers ([Story 16](https://github.com/koleaby4/dom-designs/issues/16)
+      and [Story 17](https://github.com/koleaby4/dom-designs/issues/17))
+   5. Find contact details and enquire about engaging Dom Designs into project work ([Story 18](https://github.com/koleaby4/dom-designs/issues/18)
+      and [Story 19](https://github.com/koleaby4/dom-designs/issues/19))
 
 
 
