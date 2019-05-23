@@ -147,9 +147,7 @@ header {
 }
 
 /* collapse and hide overlay on hover */
-.project-tile:hover .overlay,
-.project-tile:focus .overlay,
-.project-tile:active .overlay {
+.project-tile:hover .overlay {
   height: 0;
   z-index: -1;
 }
@@ -168,6 +166,7 @@ header {
 
 .project-tile img {
   width: 100%;
+  padding: 0;
 }
 
 .text {
@@ -178,6 +177,16 @@ header {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+/* collapse overlay for mobile devices - so people could clock on images */
+@media (hover: none) {
+  .overlay {
+    height: 2rem;
+  }
+  .project-tile {
+    padding: 0;
+  }
 }
 
 /* ---- TESTIMONIALS ----  */
