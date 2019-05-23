@@ -175,6 +175,15 @@ I truly believe it is a very clear set of instructions and trying to re-write th
 
 
 
+## Acknowledgements
+
+Special thank you to the people who guided and supported me during planning, execution and testing of this project:
+   *  Anna Greaves
+   *  Anthony O'Brien
+   *  Marie Obradovic
+   *  Simen Daehlin (mentor)
+
+
 ## Disclaimer
 
 This project was created for educational purposes only.
