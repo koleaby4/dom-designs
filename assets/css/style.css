@@ -126,6 +126,13 @@ header {
   text-align: justify;
 }
 
+/* center for extra small devices to avoid large gaps */
+@media (max-width: 360px) {
+  .service-description {
+    text-align: center;
+  }
+}
+
 /* ---- PROJECTS ----  */
 
 .section-projects {
