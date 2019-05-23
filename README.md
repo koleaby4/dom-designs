@@ -85,6 +85,13 @@ Two accessibility scanners were used to validate website:
    * [aXe](https://www.deque.com/axe)
    * [Lighthouse](https://developers.google.com/web/tools/lighthouse/)
 
+Finally, a series of peer reviews helped identifying additional issues such as:
+   * a number of orthographic mistakes
+   * gaps in documentation
+   * text alignment on extra small devices ([Issue 32](https://github.com/koleaby4/dom-designs/issues/32))
+
+
+
 ### Known issues
 
 All known defects have been captured as GitHub issues and [marked by 'bug' label](https://github.com/koleaby4/dom-designs/issues?q=is%3Aissue+label%3Abug).<br>
@@ -115,6 +122,7 @@ Website had been published into GitHub pages by following instructions provided 
 I truly believe it is a very clear set of instructions and trying to re-write them in my own words:
    1. Won't make them any better
    2. Will violate [KISS principles](https://en.wikipedia.org/wiki/KISS_principle)
+
 
 
 ## How to open it locally
