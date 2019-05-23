@@ -147,7 +147,9 @@ header {
 }
 
 /* collapse and hide overlay on hover */
-.project-tile:hover .overlay {
+.project-tile:hover .overlay,
+.project-tile:focus .overlay,
+.project-tile:active .overlay {
   height: 0;
   z-index: -1;
 }
