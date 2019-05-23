@@ -86,9 +86,9 @@ Two accessibility scanners were used to validate website:
    * [Lighthouse](https://developers.google.com/web/tools/lighthouse/)
 
 Finally, a series of peer reviews helped identifying additional issues such as:
-   * a number of orthographic mistakes
-   * gaps in documentation
-   * text alignment on extra small devices ([Issue 32](https://github.com/koleaby4/dom-designs/issues/32))
+   * A number of orthographic mistakes
+   * Gaps in documentation
+   * Text alignment on extra small devices ([Issue 32](https://github.com/koleaby4/dom-designs/issues/32))
 
 
 
