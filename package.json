@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/koleaby4/dom-designs#readme",
   "devDependencies": {
-    "cypress": "^3.3.0"
+    "cypress": "^12.7.0"
   }
 }
